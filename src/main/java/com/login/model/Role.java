@@ -1,14 +1,6 @@
 package com.login.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
-
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "roles")
